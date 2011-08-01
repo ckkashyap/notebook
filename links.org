@@ -1,0 +1,2 @@
+
+* [[http://orgmode.org/manual/index.html][org-mode manual]]					     :org:mode:emacs:
