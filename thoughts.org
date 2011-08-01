@@ -1,0 +1,53 @@
+
+* TODO relook at Moandic design for the web			   :monad:fp:
+
+* TODO scala lift framework				       :fp:web:scala:
+** Setup
+
+mvn org.apache.maven.plugins:maven-archetype-plugin:1.0-alpha-7:create -DarchetypeGroupId=org.scala-tools.archetypes -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.1 -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=your.proj.gid -DartifactId=your-proj-id
+
+mvn -DarchetypeGroupId=org.scala-tools.archetypes -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.1 -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=your.proj.gid -DartifactId=com.kashyap
+
+You could do this -
+
+mvn archetype:generate
+
+and select simple scala project (403) and then modify the pom file to add the launcher under build -> plugins -> plugin (org.scala-tools)
+
+	<configuration>
+	  <launchers>
+	    <launcher>
+	      <id>myLauncher</id>
+	      <mainClass>kashyap.com.App</mainClass>
+	    </launcher>
+	  </launchers>
+	</configuration>
+
+* TODO call up Arjun and George Thomas				     :people:
+
+* TODO Figure out a way to track people		     :people:management:work:
+
+* Queuing theory
+
+** Follow up with Haskell implementation
+
+* IDEAS								       :idea:
+
+** music - rhythm == wireframe?				      :music:graphic:
+Can rhythm be thought of akin to wirerame of a 3d graphic or perhaps the structural frame of a 2D drawing?
+
+** DSL for x86 OSC
+
+** Language comparison
+
+Type system
+
+|         | weak | strong  |
+|---------+------+---------|
+| dynamic | perl | Ruby    |
+| static  | C    | Haskell |
+|---------+------+---------|
+
+
+* 
+
