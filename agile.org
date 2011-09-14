@@ -1,0 +1,11 @@
+* Not about mimicing
+
+** Agile
+
+do you need the warm fuzzy feelings or other side effects or do you want opportunities
+
+** [[http://www.infoq.com/presentations/Kanban-System-Design][Kanban]]
+
+Systems thinking -  system = Process * Elements * Interaction
+
+* 
