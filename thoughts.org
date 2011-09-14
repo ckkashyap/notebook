@@ -1,9 +1,10 @@
 
-* TODO relook at Moandic design for the web			   :monad:fp:
+* TODO relook at Moandic design for the web 			   :monad:fp:
 
-* TODO scala lift framework				       :fp:web:scala:
+* DONE scala lift framework				       :fp:web:scala:
+No more scala ... go with Clojure if at all
 ** Setup
-
+   
 mvn org.apache.maven.plugins:maven-archetype-plugin:1.0-alpha-7:create -DarchetypeGroupId=org.scala-tools.archetypes -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.1 -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=your.proj.gid -DartifactId=your-proj-id
 
 mvn -DarchetypeGroupId=org.scala-tools.archetypes -DarchetypeArtifactId=scala-archetype-simple -DarchetypeVersion=1.1 -DremoteRepositories=http://scala-tools.org/repo-releases -DgroupId=your.proj.gid -DartifactId=com.kashyap
@@ -23,13 +24,18 @@ and select simple scala project (403) and then modify the pom file to add the la
 	  </launchers>
 	</configuration>
 
-* TODO call up Arjun and George Thomas				     :people:
+looks like mvn scala:run -DMain-Class=kashyap.com.App would work too
 
+* TODO call up Arjun and George Thomas				     :people:
+some other time
 * TODO Figure out a way to track people		     :people:management:work:
+May not be required after all ... 
 
 * Queuing theory
-
+  
 ** Follow up with Haskell implementation
+
+** Read up the practical performance analyst - atleat the queuing part
 
 * IDEAS								       :idea:
 
@@ -37,6 +43,10 @@ and select simple scala project (403) and then modify the pom file to add the la
 Can rhythm be thought of akin to wirerame of a 3d graphic or perhaps the structural frame of a 2D drawing?
 
 ** DSL for x86 OSC
+
+Atom can be a good insipiration. Perhaps, the State monad would
+suffice. Perhaps the idea is about letting only some things to compose
+thereby only "valid" things are constructed. Check out the XML EDSL
 
 ** Language comparison
 
@@ -47,7 +57,6 @@ Type system
 | dynamic | perl | Ruby    |
 | static  | C    | Haskell |
 |---------+------+---------|
-
+Got some resposes from the Haskell community
 
 * 
-
